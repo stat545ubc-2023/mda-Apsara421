@@ -561,8 +561,9 @@ that have and don’t have a root barrier?**
 With this plot, I am hoping to see if there is any relationship between
 the location of the trees and the presence or absence of a root barrier.
 Maybe I will look into how this root barrier related to the diameter o
-height of the trees in the area as well. **3. What is the distribution
-of height ranges of trees in Marpole?**
+height of the trees in the area as well. 
+
+**3. What is the distribution of height ranges of trees in Marpole?**
 
 Since I have investigated the diameter of the tress primarily in this
 assignment, I want to explore the relationship between tree genera and
