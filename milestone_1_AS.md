@@ -461,7 +461,7 @@ sufficient comments for a reader to understand your reasoning and code.
 #### I will do the following 4 exercises
 
 **1.(Prompt number 1)I am interested in figuring out the distribution of
-tree diameters in this dataset, so I will do this with a density graph**
+tree diameters in this dataset, so I will do this with a histogram graph**
 
 ``` r
 # Here I want to plot the density distribution of the diameter of all trees in this dataset
@@ -496,10 +496,10 @@ ggplot(average_diameter, aes(genus_name, avg_diameter)) +
 
 **6. (Prompt number 6) I will explore the relationship between tree
 genera and diameter in the Kensington-Cedar cottage by plotting a
-boxplot. I will also color by species**
+boxplot.**
 
 ``` r
-#To explore the relationship I want, I will first filter the data o include trees only from the kensington-cedar cottage area. I will then plot the distribution of tree diameters within each genera in the area
+#To explore the relationship I want, I will first filter the data to include trees only from the kensington-cedar cottage area. I will then plot the distribution of tree diameters within each genera in the area
 
 #Step1: filter the trees dataset to include only those from the Kensington-cedar cottage
 kensington_filtered <- vancouver_trees %>%filter(neighbourhood_name =="KENSINGTON-CEDAR COTTAGE")
